@@ -1,0 +1,169 @@
+/* Reset default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+section h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h2.underlined {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+nav ul li:hover {
+    transform: translateY(-5px);
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-content {
+    color: #333;
+}
+
+#contact {
+    background-color: lightblue;
+    padding: 50px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-box {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.contact-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    margin: 0;
+}
+
+.contact-box a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-content {
+    color: #333;
+}
